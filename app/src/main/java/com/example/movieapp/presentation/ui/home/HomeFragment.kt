@@ -4,14 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.RecyclerView
 import com.example.movieapp.BuildConfig
 import com.example.movieapp.databinding.FragmentHomeBinding
 import com.example.movieapp.utils.Resource
-import com.example.movieapp.utils.api_key
 import com.example.movieapp.utils.media_type
 import com.example.movieapp.utils.time_window
 import com.google.android.material.snackbar.Snackbar
